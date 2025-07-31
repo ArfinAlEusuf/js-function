@@ -10,3 +10,7 @@ doubleIt(55);
 console.log("-------------");
 doubleIt(48);
 console.log("-------------");
+
+const number=  12
+doubleIt(number)
+
