@@ -13,8 +13,13 @@ function vaatKhao(){
 //  11 ---> 11*11 = 121
 
 function square (number){
-    console.log(number);
     console.log('value of the number parameter', number)
+    const borgo = number * number;
+    console.log('square of the given number is: ', borgo);
 }
 
 square(4);
+console.log('-----------');
+square(12);
+square(5);
+square(405);
