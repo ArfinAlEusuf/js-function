@@ -3,10 +3,16 @@
  */
 
 function evenNumbersOnly(numbers){
+    const evens=[];
     for(const number of numbers){
-        console.log(numbers);
+        if ( number % 2 === 0){
+            // console.log(number);
+            evens.push(number);
+        }
     }
+    return evens;
 }
 
 const numbers = [5,8,91,24,6]
-evenNumbersOnly(numbers);
+const evens = evenNumbersOnly(numbers);
+console.log('enen numbers are:',evens)
